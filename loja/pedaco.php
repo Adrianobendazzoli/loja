@@ -9,5 +9,5 @@
 <body>
     <div class="container">
         <h1>Sistema CRUD - LOJA</h1>
-        <h2>Adriano Bendazzoli</h2>
+        <h2>Lojinha do Dri</h2>
     </div>
