@@ -27,13 +27,13 @@
         ?>
 
             <div class="mb-3">
-               Nome: <input type="text" value=" <?php echo $produto['nome']; ?> " class="form-control" name="nome_novo">  
+               Nome: <input type="text" value=" <?php echo $produto['nome']; ?> " autocomplete="off"  class="form-control" name="nome_novo">  
             </div>
             <div class="mb-3">
-               Preco: <input type="text" value=" <?php echo $produto['preco']; ?> " class="form-control" name="preco_novo">  
+               Preco: <input type="text" value=" <?php echo $produto['preco']; ?> " autocomplete="off" class="form-control" name="preco_novo">  
             </div>
             <div class="mb-3">
-              Quantidade:  <input type="text" value=" <?php echo $produto['quantidade']; ?> " class="form-control" name="quantidade_novo">  
+              Quantidade:  <input type="text" value=" <?php echo $produto['quantidade']; ?> " autocomplete="off" class="form-control" name="quantidade_novo">  
             </div>
             
             <button type="submit" class="btn btn-custom-color">Atualizar</button>

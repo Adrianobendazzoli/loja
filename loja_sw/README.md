@@ -1,1 +1,1 @@
-# loja_sw
+# loja

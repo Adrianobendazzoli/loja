@@ -8,9 +8,11 @@
     $stmt = $pdo->prepare($sql);
     $stmt->bindParam(':id', $id);
     
-    if ($stmt->execute()) {
-        echo "Produto excluído com sucesso!";
+     if ($stmt->execute()) {
+     header("Location: sucesso.php");
+    exit;
     } else {
-        echo "Erro ao excluir produto.";
+      header("Location: numdeu.php");
+    exit;
     }
 ?>

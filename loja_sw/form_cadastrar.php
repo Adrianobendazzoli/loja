@@ -6,13 +6,13 @@
         <h2>Formulário para cadastro de produtos</h2>
         <form action="inserir.php" method="POST">
             <div class="mb-3">
-                <input type="text" class="form-control" name="nome" placeholder="Digite o nome do produto:">  
+                <input type="text" class="form-control" name="nome" autocomplete="off" placeholder="Digite o nome do produto:">  
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="preco" placeholder="Digite o preço do produto:">  
+                <input type="text" class="form-control" name="preco" autocomplete="off"  placeholder="Digite o preço do produto:">  
             </div>
             <div class="mb-3">
-                <input type="text" class="form-control" name="quantidade" placeholder="Digite a quantidade do produto:">  
+                <input type="text" class="form-control" name="quantidade" autocomplete="off"  placeholder="Digite a quantidade do produto:">  
             </div>
             
             <button type="submit" class="btn btn-custom-color">Cadastrar</button>
